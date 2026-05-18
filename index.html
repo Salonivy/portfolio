@@ -745,6 +745,38 @@
   object-fit:cover;
   border-radius:2rem;
 }
+
+  .about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center; /* aligns both sections vertically */
+    gap:80px;
+}
+
+.about-photo-wrap{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.about-photo-wrap img{
+    width:100%;
+    max-width:550px;
+    height:650px;
+    object-fit:cover;
+    border-radius:30px;
+}
+
+.about-photo-name-tag{
+    margin-top:20px;
+    text-align:center;
+}
+
+.about-blob-wrap{
+    display:flex;
+    align-items:center;
+}
 </style>
 </head>
 <body>
